@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/specy.css">
+    <link href="data/museomix.ttf" rel="stylesheet">
+    <title>MixTesRomans</title>
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">Le projet</h4>
+                        <p class="text-muted">Mix Tes Romans est une application d’écriture créative qui s’adresse aux enseignants du second degré. Elle permet de constituer une trame narrative à partir de documents issus des des collections numériques de la BNF et de ses partenaires.
+                            Le processus de création s’appuie sur un jeu de cartes.</p>
+                        <p class="text-muted">Mix Tes Romans repose sur l’étude de grandes oeuvres littéraires en lien avec les programmes scolaires.</p>
+                        <p class="text-muted">Une exploitation des données ouvertes de la BNF et ses partenaires pour le #HackathonBNF 2018.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/MixTesRomans" class="text-white">@MixTesRomans</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img width="246" height="60" class="mr-2" src="img/black-logo.svg" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <section id="section-intro" class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Bienvenue sur Mix Tes Romans !</h1>
+                <p class="lead text-muted mt-4">Découvrez des personnages de romans et écris ta propre histoire !</p>
+
+                <div class="row m-4">
+                    <div class="col-sm-4">
+                        <div class="text-center text-primary"><i class="fas fa-3x fa-search"></i></div>
+                        <p class="m-1">Découvrez les oeuvres du programmes avec vos élèves à partir de millions documents numériques de la BNF et de ses partenaires.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="text-center text-primary"><i class="fas fa-3x fa-pen"></i></div>
+                        <p class="m-1">Engagez le procédé créatif d’écriture. Guidez vos élèves vers une forme ludique de créativité littéraire.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="text-center text-primary"><i class="fas fa-3x fa-plus"></i></div>
+                        <p class="m-1">Créez de nouvelles oeuvres et partagez-les avec la communauté #mixTesRomans</p>
+                    </div>
+                </div>
+
+                <span id="lauch-form" class="btn btn-primary m-1">Entrez dans l’atelier #MixTesRomans : “Voyage et aventures -  cycle 4”</span>
+            </div>
+        </section>
+
+        <section id="section-form" class="jumbotron text-center d-none">
+            <div class="container">
+                <h1 class="jumbotron-heading">Allons-y !</h1>
+                <p class="lead text-muted">Commencez par sélectionner un des thèmes ci-dessous en fonction des indications de ton professeur.</p>
+                <p>
+                    <a href="#" class="btn btn-secondary my-2">Regarder le monde, inventer des mondes</a>
+                    <a href="#" class="btn btn-secondary my-2">Agir sur le Monde</a>
+                    <a href="#" id="lauch-form-2" class="btn btn-primary my-2">Se chercher, se construire</a>
+                    <a href="#" class="btn btn-secondary my-2">Vivre en société, participer à la société</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="section-form-2" class="jumbotron text-center d-none">
+            <div class="bs-componenent">
+                <form id="criteria" class="form">
+                    <fieldset>
+                        <legend align="left">Sélectionnez les critères pour trouver des documents</legend>
+                        <div class="form-group form-inline">
+                            <select class="custom-select m-1">
+                                <option selected="">Temps</option>
+                                <option value="1">XIXème siècle</option>
+                                <option value="1">XXème siècle</option>
+                            </select>
+                            <select class="custom-select m-1">
+                                <option selected="">Lieux</option>
+                                <option value="1">Afrique</option>
+                                <option value="1">Amérique</option>
+                                <option value="1">Antarctique</option>
+                                <option value="1">Asie</option>
+                                <option value="1">Europe</option>
+                                <option value="1">Imaginaire</option>
+                                <option value="1">Mers et océans</option>
+                                <option value="1">Océanie</option>
+                            </select>
+                            <span id="lauch-docs" class="btn btn-primary m-1">Rechercher</span>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <div id="docs" class="album py-5 bg-light p-4 d-none">
+            <div class="jumbotron">
+                <h2 class="text-center p-4">Découvrir</h2>
+                <p class="lead">Prenez le temps de consulter les documents suivants et identifie les différents personnages, lieux et moments de l'action.</p>
+                <p class="lead">Explorez  les documents qui vous sont proposés.</p>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="img/elephant.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Iconographie :  Tour du monde en 80 jours</h5>
+                        <p class="card-text"></p>
+                        <a href="https://gallica.bnf.fr/ark:/12148/btv1b2200236n/f20.item" target="_blank" class="btn btn-primary">Consulter le document</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text-center p-4"><i class="fas fa-headphones-alt fa-5x text-primary"></i></div>
+                    <iframe src="https://www.franceculture.fr/player/export-reecouter?content=95085d9f-23f5-4c47-ac14-8154d5f4bc60" width="100%" frameborder="0" scrolling="no" height="137"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Clique et écoute</h5>
+                        <p class="card-text">De la minute 3:40 à la minute 7:10.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/alice.PNG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Texte : Les aventures d’Alice au pays des merveilles.</h5>
+                        <p class="card-text">Lire de la page 91 à 97 des Aventures d’Alice sur Gallica.</p>
+                        <a href="https://gallica.bnf.fr/ark:/12148/bpt6k1045580k/f109.item" target="_blank" class="btn btn-primary">Consulter le document</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="docs-next" class="album p-4 text-center">
+                <p>Repérez les éléments clés du récit (personnages, époques, lieux, actions) et listez-les ci-dessous.</p>
+
+                <p><span id="lauch-cards" class="btn btn-primary">J'ai fini !</span></p>
+            </div>
+        </div>
+
+
+
+        <div id="cards-container-div" class="album py-5 bg-light d-none">
+            <div class="container">
+                <div class="jumbotron">
+                    <h2 class="text-center p-4">Créer</h2>
+                    <p class="lead">Voici les cartes de jeu à partir desquelles nous vous proposons maintenant d’écrire une nouvelle histoire.</p>
+                    <ul class="lead">
+                        <li class="lead">N’hésitez pas à provoquer des rencontres inattendues et des péripéties improbables ;</li>
+                        <li class="lead">N’oubliez pas que pour créer votre histoire vous avez besoin d’avoir une carte de chaque catégorie au minimum (personnage, actions, lieux, temps).</li>
+                    </ul>
+                </div>
+
+                <div id="cards-container" class="card-columns mb-4">
+                </div>
+
+                <div class="text-center"><span class="btn btn-primary m-1">Imprimer les cartes</span></div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Retour</a>
+            </p>
+            <p class="p-0 m-0"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png" alt="cc-by-sa"  style="max-width: 50px;" /> #MixTesRomans une apllication imaginée et prototypée lors du #HackatonBnF 2018 par Corinne Atlan, Olivier Banus, Charline Cesbron-Bazin, Sakada Ly, Karl Pineau, Bastien Rennesson et Sakada Ly. Les données exploitées sont issues de Gallica, Wikidata et Radio France.</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/holder.min.js"></script>
+    <script src="js/MTR.js"></script>
+</body>
+
+</html>

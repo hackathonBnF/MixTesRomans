@@ -1,0 +1,29 @@
+{
+    "QX1": {
+        "label": "Se battre",
+        "type": "action",
+        "P18": [
+            {
+                "image": "img/se_battre.png"
+            }
+        ]
+    },
+    "QX2": {
+        "label": "Danser",
+        "type": "action",
+        "P18": [
+            {
+                "image": "img/danser.png"
+            }
+        ]
+    },
+    "QX3": {
+        "label": "Discuter",
+        "type": "action",
+        "P18": [
+            {
+                "image": "img/discuter.png"
+            }
+        ]
+    }
+}

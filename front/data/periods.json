@@ -1,0 +1,22 @@
+{
+    "QY1": {
+        "label": "XIXe siècle",
+        "type": "period",
+        "P18": [
+            {
+                "image": "img/19e.png"
+            }
+        ],
+        "description": "Le siècle de la machine à vapeur, de la révolution industrielle et des dernières grandes explorations terrestres et maritimes."
+    },
+    "QY2": {
+        "label": "XXe siècle",
+        "type": "action",
+        "P18": [
+            {
+                "image": "img/20e.png"
+            }
+        ],
+        "description": "Le siècle de la conquête du ciel puis de l’espace. Pour l’Homme le monde se rétréci. C’est l’époque de la mondialisation des conflits et des échanges."
+    }
+}

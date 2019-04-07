@@ -1,0 +1,82 @@
+{
+    "Q1269082": {
+        "label": "Alice",
+        "type": "person",
+        "description": "Petite fille issue de la société anglaise du XIXe siècle. Elle connaît de nombreuses aventures dans un monde imaginaire.",
+        "P31": [
+            {
+                "label": "être humain de fiction",
+                "id": "Q15632617"
+            },
+            {
+                "label": "personnage littéraire",
+                "id": "Q3658341"
+            }
+        ],
+        "P21": [{
+            "label": "féminin",
+            "id": "Q6581072"
+        }],
+        "P1441": [
+            {
+                "label": "Les Aventures d'Alice au pays...",
+                "id": "Q92640"
+            },
+            {
+                "label": "De l'autre côté du miroir",
+                "id": "Q220331"
+            }
+        ],
+        "P18": [{
+            "image": "img/alice2.png"
+        }]
+    },
+    "QP2": {
+        "label": "Phileas Phog",
+        "type": "person",
+        "description": "Gentleman anglais du XIXe siècle. Il se lance le défi de faire le Tour du monde en très peu de jours.",
+        "P31": [
+            {
+                "label": "être humain de fiction",
+                "id": "Q15632617"
+            },
+            {
+                "label": "personnage littéraire",
+                "id": "Q3658341"
+            }
+        ],
+        "P1441": [
+            {
+                "label": "Le Tour du Monde en 80 jours",
+                "id": "Q92640"
+            }
+        ],
+        "P18": [{
+            "image": "img/perso-phileas_fogg.png"
+        }]
+    },
+    "QP3": {
+        "label": "Le cachalog blanc",
+        "type": "person",
+        "description": "Mammifère marin de l'espèces des cétacés. Il mène en combat sans fin contre les hommes qui le chassent.",
+        "P31": [
+            {
+                "label": "être humain de fiction",
+                "id": "Q15632617"
+            },
+            {
+                "label": "personnage littéraire",
+                "id": "Q3658341"
+            }
+        ],
+        "P1441": [
+            {
+                "label": "Moby Dick",
+                "id": "Q174596"
+            }
+        ],
+        "P18": [{
+            "image": "img/perso-cachalot_blanc.png"
+        }]
+    }
+}

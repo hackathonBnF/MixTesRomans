@@ -1,0 +1,147 @@
+{
+    "Q48": {
+        "label": "Asie",
+        "type": "place",
+        "P31": [
+            {
+                "label": "continent",
+                "id": "Q5107"
+            },
+            {
+                "label": "zone continentale et îles environnantes",
+                "id": "Q2418896"
+            }
+        ],
+        "P361": [
+            {
+                "label": "Terre",
+                "id": "Q2"
+            },
+            {
+                "label": "Eurasie",
+                "id": "Q5401"
+            },
+            {
+                "label": "Afro-Eurasie",
+                "id": "Q27527"
+            },
+            {
+                "label": "Ostfeste",
+                "id": "Q2035462"
+            }
+        ],
+        "P373": ["Asia"],
+        "P18": [
+            {
+                "image": "img/asie.png"
+            },
+            {
+                "entity": "Q195801",
+                "image": "http://commons.wikimedia.org/wiki/Special:FilePath/UniversalisCosmographia.jpg"
+            }
+        ]
+    },
+    "Q46": {
+        "label": "Europe",
+        "type": "place",
+        "P31": [
+            {
+                "label": "zone continentale et îles environnantes",
+                "id": "Q2418896"
+            },
+            {
+                "label": "groupe de population",
+                "id": "Q851990"
+            },
+            {
+                "label": "continent",
+                "id": "Q5107"
+            }
+        ],
+        "P361": [
+            {
+                "label": "Afro-Eurasie",
+                "id": "Q27527"
+            },
+            {
+                "label": "Terre",
+                "id": "Q2"
+            },
+            {
+                "label": "Eurasie",
+                "id": "Q5401"
+            },
+            {
+                "label": "Ostfeste",
+                "id": "Q2035462"
+            },
+            {
+                "label": "surface terrestre",
+                "id": "Q1349417"
+            }
+        ],
+        "P373": ["Europe"],
+        "P18": [
+            {
+                "entity": "",
+                "image": "img/europe.png"
+            },
+            {
+                "entity": "Q195801",
+                "image": "http://commons.wikimedia.org/wiki/Special:FilePath/UniversalisCosmographia.jpg"
+            }
+        ]
+    },
+    "Q3895768": {
+        "label": "lieu de fiction",
+        "type": "place",
+        "P31": [{
+            "label": "classe de fiction",
+            "id": "Q15831596"
+        }],
+        "P373": ["Fictional places"],
+        "P18": []
+    },
+    "Q20018609": {
+        "label": "mers et océans de la terre",
+        "type": "place",
+        "P31": [{
+            "label": "étendue d'eau",
+            "id": "Q15324"
+        }],
+        "P18": [{
+            "entity": "",
+            "image": "img/mers.png"
+        }]
+    },
+    "Q538": {
+        "label": "Océanie",
+        "type": "place",
+        "P31": [
+            {
+                "label": "continent",
+                "id": "Q5107"
+            },
+            {
+                "label": "écozone",
+                "id": "Q944816"
+            }
+        ],
+        "P361": [
+            {
+                "label": "surface terrestre",
+                "id": "Q1349417"
+            },
+            {
+                "label": "Terre",
+                "id": "Q2"
+            },
+            {
+                "label": "Australie et Océanie",
+                "id": "Q55643"
+            }
+        ],
+        "P373": ["Oceania"],
+        "P18": []
+    }
+}
